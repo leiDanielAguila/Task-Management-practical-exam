@@ -1,0 +1,12 @@
+from fastapi import Depends
+from sqlalchemy.orm import Session
+
+from app.core.database import get_db
+from app.repositories.task_repository import TaskRepository
+from app.services.task_service import TaskService
+
+
+def get_task_service(db: Session = Depends(get_db)) -> TaskService:
+    """Dependency to inject TaskService into FastAPI endpoints."""
+    repository = TaskRepository(db)
+    return TaskService(repository)

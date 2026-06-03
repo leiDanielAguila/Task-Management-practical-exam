@@ -43,7 +43,7 @@ __pycache__/
 *.so
 .Python
 env/
-venv/
+*.venv/
 ENV/
 build/
 develop-eggs/
@@ -96,3 +96,7 @@ yarn-error.log
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Github
+.github
