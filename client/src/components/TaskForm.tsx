@@ -55,7 +55,7 @@ export const TaskForm = ({
       title: task?.title ?? "",
       description: task?.description ?? "",
     });
-  }, [task, form]);
+  }, [mode, task?.id]);
 
   const submitLabel = mode === "create" ? "Save" : "Update";
 
