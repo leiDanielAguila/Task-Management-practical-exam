@@ -53,9 +53,9 @@ or
 
 The startup script automatically:
 
-- ✅ Starts the FastAPI backend server
-- ✅ Starts the React + Vite frontend server
-- ✅ Runs both services simultaneously for local development
+- Starts the FastAPI backend server
+- Starts the React + Vite frontend server
+- Runs both services simultaneously for local development
 
 ## Access the Application
 
@@ -95,7 +95,7 @@ Then start the application again:
 ./dev.sh
 ```
 
-If the frontend cannot connect to the backend, verify that the frontend environment variable is configured correctly:
+If the frontend cannot connect to the backend, verify that the frontend env variable is configured correctly:
 
 ```env
 VITE_API_BASE_URL=http://localhost:8000
