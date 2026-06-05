@@ -8,6 +8,18 @@ The application provides core task management functionality including task creat
 
 The project was developed as part of a Fullstack Development assessment to demonstrate proficiency in frontend development, backend development, API design, database integration, and application architecture.
 
+## Running the Application
+
+### Prerequisites
+
+- Make sure the following are installed:
+
+- Node.js (v18 or later recommended)
+- Python 3.11+ (or your project's required version)
+- npm
+
+
+
 ## Features
 
 * Create new tasks
